@@ -1,0 +1,80 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.images {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.view-agenda-button, .back-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.view-agenda-button:hover, .back-button:hover {
+    background-color: #45a049;
+}
+
+.agenda-list {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Estilo do botão para a aula online */
+.online-class-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Cor verde padrão */
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px; /* Espaçamento à esquerda */
+    transition: background-color 0.3s; /* Transição suave para a cor do fundo */
+}
+
+.online-class-button:hover {
+    background-color: #45a049; /* Cor ao passar o mouse */
+}
